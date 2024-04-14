@@ -11,7 +11,7 @@ app = Flask(__name__)
 # app.config['MYSQL_DB'] = 'War_ship_game'
 
 # app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_HOST'] = 'docker.internal.host'
+app.config['MYSQL_HOST'] = 'host.docker.internal'
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = 'my-secret-pw'
 app.config['MYSQL_PORT'] = 3307
